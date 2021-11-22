@@ -7,7 +7,7 @@ h1{
     text-align: center;
     }
 h3{
-    color: #EF2D42;
+    color: #2B2D42;
     font-size: 200%;
     font-weight: bold;
     text-decoration: underline dotted;
@@ -28,9 +28,9 @@ footer{
     border: 1px solid black;
 }
 
-img{
+#imgart{
     border: 2px solid #8D99AE;
-    text-align: center;
+    margin-left: 860px;
 }
 
 #lien{
