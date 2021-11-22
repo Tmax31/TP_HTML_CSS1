@@ -1,0 +1,46 @@
+
+h1{
+    color : #EF233C;
+    font-size: 300%;
+    font-family: Impact;
+    font-weight: bold;
+    text-align: center;
+    }
+h3{
+    color: #EF2D42;
+    font-size: 200%;
+    font-weight: bold;
+    text-decoration: underline dotted;
+}
+
+ul{
+    list-style: none;
+}
+
+body{
+    background:  radial-gradient( at top, #CCDAE0,#EDF2F4);
+}
+footer{
+    text-align: right;
+}
+
+#articles{
+    border: 1px solid black;
+}
+
+img{
+    border: 2px solid #8D99AE;
+    text-align: center;
+}
+
+#lien{
+    color: #D90429;
+}
+
+#lien:visited{
+    color: grey;
+}
+
+#lien:hover{
+    color: #2B2D42;
+}

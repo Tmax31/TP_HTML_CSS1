@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>Titre de ma page</title>
+    </head>
+ <link rel="stylesheet" href="TP.css">
+
+    <body>
+        <header>
+            <div class="banniere">
+                <img src="https://picsum.photos/800/200">
+                  <h1>Lorem, ipsum dolor.</h1>>
+                </div>
+            <div>
+                <nav>
+                    <ul>
+                        <li><a id="lien" href="index.html">Accueil</a></li>
+                        <li><a id="lien" href="">Blog</a></li>
+                        <li><a id="lien" href="">Gallerie</a></li>
+                        <li><a id="lien" href="contact.html">contact</a></li>
+
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+
+        <fieldset>
+            <legend>Infos personnelles</legend>
+            <form method="post" action="ssq">
+                <div>
+                    <label for="prenom">Prénom: *</label>
+                    <input type="text" name="Prenom" placeholder="Ex Martin" minlength="2" max="20" id="prenom"/>
+                </div>
+                <div>
+                    <label for="nom">Nom: *</label>
+                    <input type="text" name="nom" placeholder="Ex Dubois" minlength="2" max="20"  id="nom"/>
+                </div>
+                <div>
+                    <label for="email">E-mail: *</label>
+                    <input type="email" name="email" placeholder="Ex monmail@gmail.com" id="email"/>
+                </div>
+                <label for="com">Laissez un commentaire:</label> <br/>
+                <textarea name="com" id="com" cols="70" rows="10" placeholder="Entrez ici votre commentaire"></textarea>
+                <div>
+                    <label for="checkbox1">Envoie d'une copie par E-mail</label>
+                    <input type="checkbox" id="checkbox1" checked>
+                <div>
+                 <div>
+                    <input type="submit" value="Envoyer">
+                    <input type="reset" value="Reset">
+                    </div>
+        </fieldset>
+        <footer>
+            <ul>
+                <li><a id="lien" href="https://google.fr">Footer1</a></li>
+                <li><a id="lien" href="https://google.fr">Footer2</a></li>
+                <li><a id="lien" href="https://google.fr">Footer3</a></li>
+            </ul>
+        </footer>
+
+    </body>
